@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.adnanto.pemanasansatu.FollowerFollowing">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/jarak_antar_widget"
+        android:paddingBottom="@dimen/jarak_antar_widget"
+        android:paddingLeft="@dimen/jarak_antar_widget"
+        android:paddingRight="@dimen/jarak_antar_widget">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorOval"
+            android:id="@+id/etKeyword"
+            android:hint="@string/hint" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lvCommunity">
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PemanasanSatu</string>
+    <string name="nama"> </string>
+    <string name="biodata"> </string>
+    <string name="pengikut"> </string>
+    <string name="hint">Type your keyword here...</string>
+    <string name="button_following_main">Following</string>
+    <string name="button_followers_main">Followers</string>
+    <string name="button_group_main">Group</string>
+    <string name="gambar">gambar</string>
+</resources>

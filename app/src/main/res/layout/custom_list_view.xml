@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/ivGambar" />
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvUserName"
+                android:text="@string/nama"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvName"
+                android:text="@string/biodata"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDeskripsi"
+                android:text="@string/pengikut"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_gravity="center_vertical"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/imgBtnGambar"
+            android:background="@color/colorGreenSebangsa"
+            android:contentDescription="@string/gambar" />
+    </LinearLayout>
+</LinearLayout>
